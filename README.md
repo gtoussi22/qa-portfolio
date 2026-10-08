@@ -19,6 +19,12 @@ Ce dépôt montre comment je mène la qualité d'une application, de la stratég
 | **Testeur fonctionnel** | [Cas de test](docs/02-cas-de-test.md) tracés jusqu'aux exigences, [rapports d'anomalies](docs/03-anomalies.md) avec recommandation go / no-go |
 | **Testeur automaticien** | Suite Playwright en Page Object, exécutée sur 3 navigateurs à chaque changement ([`tests/`](tests), [`src/`](src)) |
 
+## Projet réel : stratégie de test de ProofQA
+
+En plus de cette démonstration sur SauceDemo, je conçois la stratégie de test de **ProofQA**, une plateforme SaaS de Quality Assurance éditée par Titimbē Forge : 32 user stories priorisées, 47 risques analysés, 19 critères de sortie et 186 scénarios d'acceptation en Gherkin.
+
+**📄 [Lire la présentation de la stratégie (PDF, 6 pages)](docs/proofqa-strategie-de-test/ProofQA_StrategieTest_v1.0_Presentation.pdf)** · [Résumé](docs/proofqa-strategie-de-test/README.md)
+
 ## Ce qui est couvert
 
 | Exigence | Cas de test | Automatisés |
@@ -47,6 +53,7 @@ docs/
   01-strategie-de-test.md   Stratégie, risques, critères de sortie
   02-cas-de-test.md         Référentiel des cas de test et matrice de couverture
   03-anomalies.md           Rapports d'anomalies et recommandation go / no-go
+  proofqa-strategie-de-test/  Stratégie de test de ProofQA, version de présentation
 src/
   pages/                    Page Objects (connexion, catalogue, panier, commande)
   data/                     Comptes et jeux de données
